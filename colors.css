@@ -1,0 +1,46 @@
+﻿/* COLORS
+____________________________________*/
+.color-gray-0        { color:#f8f9fa; }
+
+.color-gray-1        { color:#f1f3f5; }
+
+.color-gray-2        { color:#e9ecef; }
+
+.color-gray-3        { color:#dee2e6; }
+
+.color-gray-4        { color:#ced4da; }
+
+.color-gray-5        { color:#adb5bd; }
+
+.color-gray-6        { color:#868e96; }
+
+.color-gray-7        { color:#495057; }
+
+.color-gray-8        { color:#343a40; }
+
+.color-gray-9        { color:#212529; }
+
+.color-red             { color:#f03e3e; }
+.color-red-transparent { color:#fff5f5; }
+.color-red-lite        { color:#ff6b6b; }
+.color-red-dark        { color:#c92a2a; }
+
+.color-blue             { color:#1c7cd6; }
+.color-blue-transparent { color:#e8f7ff; }
+.color-blue-lite        { color:#329af0; }
+.color-blue-dark        { color:#1862ab; }
+
+.color-green             { color:#37b24d; }
+.color-green-transparent { color:#ebfbee; }
+.color-green-lite        { color:#51cf66; }
+.color-green-dark        { color:#2b8a3e; }
+
+.color-yellow             { color:#f59f00; }
+.color-yellow-transparent { color:#fff9db; }
+.color-yellow-lite        { color:#fcc419; }
+.color-yellow-dark        { color:#e67700; }
+
+.color-orange             { color:#f76707; }
+.color-orange-transparent { color:#fff4e6; }
+.color-orange-lite        { color:#ff922b; }
+.color-orange-dark        { color:#d9480f; }

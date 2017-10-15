@@ -30,9 +30,13 @@ blockquote, q { quotes:none; }
 table { border-collapse:collapse; border-spacing:0; width:100%; }
 
 input::-ms-clear { display:none; }
-a { color:inherit; }
-a:link, a:visited, a:hover, a:active { text-decoration:none; }
-a:focus, button:focus, input:focus, textarea:focus, select:focus { outline:1px dashed #f8f9fa; }
 
-strong { font-weight:600; }
-code { font-family:'Droid Sans Mono'; }
+a { color:inherit; }
+    a:link, 
+    a:visited, 
+    a:hover, 
+    a:active { text-decoration:none; }
+
+label { display:block; }
+/* a:focus, button:focus, input:focus, textarea:focus, select:focus { outline:1px dashed #f8f9fa; } */
+

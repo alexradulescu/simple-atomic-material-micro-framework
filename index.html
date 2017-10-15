@@ -16,6 +16,11 @@
     <link href="./typography.css" type="text/css" rel="stylesheet"/>
     <link href="./forms.css" type="text/css" rel="stylesheet"/>
     <link href="./others.css" type="text/css" rel="stylesheet"/>
+    <link href="./margins.css" type="text/css" rel="stylesheet"/>
+    <link href="./paddings.css" type="text/css" rel="stylesheet"/>
+    <link href="./colors.css" type="text/css" rel="stylesheet"/>
+    <link href="./background-colors.css" type="text/css" rel="stylesheet"/>
+    <script src='./generate-css.js'></script>
 </head>
 <body>
     <div class="container">
@@ -41,28 +46,45 @@
           <h6 class="title">Title</h6>
           <p class="text">Lorem ipsum</p>
           <p class="small">Small text</p>
+          <p class="title">A title with <a href="#" class="link">a link</a></p>
         </section>
         <section>
-          <label class="form-group">
+          <label class="form-group mb-3">
             <span class="form-label">Label</span>
             <input type="text" placeholder="Text" class="input-field"/>
           </label>
           
-          <label class="form-group with-addon">
-            <span class="form-label">Label</span>
+          <label class="form-group with-addon mb-3">
+            <span class="form-label color-gray-0 bold">Label</span>
             <input type="text" placeholder="Text" class="input-field"/>
           </label>
           
-          <label class="form-group">
+          <label class="form-group mb-3">
             <span class="form-label">Label</span>
             <select class="select-field">
               <option>One</option>
             </select>
           </label>
 
-          <label class="form-group">
-            <input type="checkbox"> I accept the TandC
+          <label class="form-group mb-3">
+            <input type="checkbox" class="checkbox-field"> I accept the TandC
           </label>
+
+          <label class="form-group mb-3">
+            <input type="radio" name="product" class="radio-field">
+            <span class="small">One</span>
+          </label>
+          <label class="form-group mb-3">
+            <input type="radio" name="product" class="radio-field">
+            <span class="small">Two</span>
+          </label>
+          <label class="form-group mb-3">
+            <input type="radio" name="product" class="radio-field">
+            <span class="small">Three</span>
+          </label>
+        </section>
+        <section>
+            <!-- <code class="code text"></code> -->
         </section>
       </div>
 </body>
