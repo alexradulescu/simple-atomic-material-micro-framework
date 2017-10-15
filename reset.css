@@ -38,5 +38,5 @@ a { color:inherit; }
     a:active { text-decoration:none; }
 
 label { display:block; }
-/* a:focus, button:focus, input:focus, textarea:focus, select:focus { outline:1px dashed #f8f9fa; } */
+a:focus, button:focus, input:focus, textarea:focus, select:focus { outline:1px dashed #242424; } */
 
