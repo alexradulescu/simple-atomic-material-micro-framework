@@ -1,0 +1,24 @@
+﻿/* GRID
+____________________________________*/
+.container { width:90%; max-width:110rem; margin:auto; padding:2.4rem 0; }
+
+/* GRID */
+.grid { display:flex; flex-wrap:wrap; justify-content:space-around; width:calc(100% + var(--gutter)); margin-left:calc((var(--gutter) / 2) * -1); }
+  .col-full           { width:calc(100%     - var(--gutter)); }
+  .col-half           { width:calc(50%      - var(--gutter)); }
+  .col-third          { width:calc(33.333%  - var(--gutter)); }
+  .col-quarter        { width:calc(25%      - var(--gutter)); }
+  .col-three-quarter  { width:calc(75%      - var(--gutter)); }
+  .col-two-thirds     { width:calc(66.666%  - var(--gutter)); }
+  
+@media all and (max-width:768px) {
+  .col-three-quarter,
+  .col-two-thirds { width:calc(100% - var(--gutter)); }
+  .col-third,
+  .col-quarter    { width:calc(50%  - var(--gutter)); }
+}
+@media all and (max-width:480px) {
+  .col-half,
+  .col-third,
+  .col-quarter { width:calc(100% - var(--gutter)); }
+}

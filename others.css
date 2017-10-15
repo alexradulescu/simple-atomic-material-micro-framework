@@ -1,0 +1,10 @@
+﻿/* Other
+____________________________________*/
+.flex { display:flex; }
+.flex-1 { flex:1; }
+.jc-sb      { justify-content:space-between; }
+.jc-sa      { justify-content:space-around; }
+.jc-center  { justify-content:center; }
+.ai-center  { align-items:center; }
+
+.demo { height:200px; background-color:gray; margin-bottom:20px; }
