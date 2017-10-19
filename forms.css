@@ -4,11 +4,11 @@ ____________________________________*/
 .input-field { font-size:1.4rem; font-weight:400; height:4rem; padding:0 1.6rem; border:1px solid gray; display:block; border-radius:3px; }
 .select-field { font-size:1.4rem; font-weight:400; height:4rem; padding:0 1.6rem; display:block; border-radius:0; border-radius:3px; background:transparent; border:1px solid gray; -webkit-appearance:none; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="30" viewBox="0 0 24 24" width="30"><path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/><path d="M0-.75h24v24H0z" fill="none"/></svg>'); width:100%; background-repeat:no-repeat; background-position: right center; }
 .form-label { font-size:1.6rem; line-height:1.4; margin-bottom:.4rem; }
+.addon-label { font-size:1.6rem; line-height:1.4; margin:0; background-color:gray; padding:0 1.6rem; display:flex; align-items:center; }
 
 
 .form-group.with-addon { display:flex; }
 .form-group.with-addon .input-field { flex:1; border-radius:0; }
-.form-group.with-addon .form-label { margin:0; background-color:gray; padding:0 1.6rem; display:flex; align-items:center; }
 .form-group.with-addon > *:first-child { border-top-left-radius:3px; border-bottom-left-radius:3px; }
 .form-group.with-addon > *:last-child { border-top-right-radius:3px; border-bottom-right-radius:3px; }
 
@@ -19,3 +19,7 @@ ____________________________________*/
 .radio-field { height:2.4rem; width:2.4rem; margin:0; vertical-align:middle; background:transparent; border:none; -webkit-appearance:none; -moz-appearance: none; appearance: none; border-radius:0; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); background-repeat:no-repeat; background-position: center center; }
 
 .radio-field:checked { background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); }
+
+.button { display:inline-block; line-height:4rem; border:none; border-radius:.3rem; color:var(--oc-gray-0); background-color:var(--oc-blue-7); padding:0 1.6rem; font-size:1.4rem; text-transform:uppercase; font-weight:600; cursor:pointer; position:relative; }
+    .button:hover:before { content:""; position:absolute; top:0; left:0; width:100%; height:100%; display:block; background-color:rgba(0, 0, 0, .1); }
+    .button-text { position:relative; } 

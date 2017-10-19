@@ -19,5 +19,7 @@ ____________________________________*/
 .strike { text-decoration:line-through; }
 
 .link,
-a.link { color:blue; text-decoration:underline; }
+a.link { color:var(--oc-blue-7); text-decoration:underline; transition:color .25s; }
+.link:hover,
+a.link:hover { color:var(--oc-blue-9); }
 
