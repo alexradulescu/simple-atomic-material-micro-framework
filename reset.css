@@ -14,6 +14,10 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video { margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline; }
 
+*,
+*:before,
+*:after { box-sizing:border-box; }
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section { display:block; }
 
@@ -38,5 +42,6 @@ a { color:inherit; }
     a:active { text-decoration:none; }
 
 label { display:block; }
-a:focus, button:focus, input:focus, textarea:focus, select:focus { outline:1px dashed #242424; } */
+a:focus, button:focus { outline:1px dashed #242424; }
+input:focus, textarea:focus, select:focus { outline:none; }
 

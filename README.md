@@ -6,27 +6,27 @@ To be used in relation with a self-written, maybe scoped, object oriented css, a
 
 **Road-map** [alex-radulescu.com/freeze-ui](http://alexradulescu.github.io/freeze-ui/)
 
-- Grid system
-- Panel
-    - Fixed header
+- Grid system -> DONE
+- Panel -> DONE
+    - Fixed header -> Cancelled
 - Forms
-    - Input
-    - Search
-    - Number
-    - Email
-    - Checkbox
-    - Radio
-    - Select
-    - Addons
-    - Button
+    - Input -> DONE
+    - Search -> DONE
+    - Number -> DONE
+    - Email -> DONE
+    - Checkbox -> DONE
+    - Radio -> DONE
+    - Select -> DONE
+    - Addons -> DONE
+    - Button -> DONE
         - Transparent
         - Loading
     - File upload
     - Toggle
-    - Label
-    - Extra text
-    - Error message
-    - Textarea
+    - Label -> DONE
+    - Extra text -> DONE
+    - Error message -> DONE
+    - Textarea -> DONE
 
 - Dropdown
 
@@ -40,10 +40,10 @@ To be used in relation with a self-written, maybe scoped, object oriented css, a
 - Tag
 - Table
 
-- Colors
-- Bg-Colors
-- Padding
-- Margin
+- Colors -> DONE
+- Bg-Colors -> DONE
+- Padding -> DONE
+- Margin -> DONE
 
 - Block
 - Flex
