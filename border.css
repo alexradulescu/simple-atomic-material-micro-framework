@@ -1,0 +1,71 @@
+﻿/* Borders
+____________________________________*/
+.border-gray-0   { border-color:#f8f9fa; }
+
+.border-gray-1   { border-color:#f1f3f5; }
+
+.border-gray-2   { border-color:#e9ecef; }
+
+.border-gray-3   { border-color:#dee2e6; }
+
+.border-gray-4   { border-color:#ced4da; }
+
+.border-gray-5   { border-color:#adb5bd; }
+
+.border-gray-6   { border-color:#868e96; }
+
+.border-gray-7   { border-color:#495057; }
+
+.border-gray-8   { border-color:#343a40; }
+
+.border-gray-9   { border-color:#212529; }
+
+.border-red             { border-color:#f03e3e; }
+.border-red-transparent { border-color:#fff5f5; }
+.border-red-lite        { border-color:#ff6b6b; }
+.border-red-dark        { border-color:#c92a2a; }
+
+.border-blue             { border-color:#1c7cd6; }
+.border-blue-transparent { border-color:#e8f7ff; }
+.border-blue-lite        { border-color:#329af0; }
+.border-blue-dark        { border-color:#1862ab; }
+
+.border-green             { border-color:#37b24d; }
+.border-green-transparent { border-color:#ebfbee; }
+.border-green-lite        { border-color:#51cf66; }
+.border-green-dark        { border-color:#2b8a3e; }
+
+.border-yellow             { border-color:#f59f00; }
+.border-yellow-transparent { border-color:#fff9db; }
+.border-yellow-lite        { border-color:#fcc419; }
+.border-yellow-dark        { border-color:#e67700; }
+
+.border-orange             { border-color:#f76707; }
+.border-orange-transparent { border-color:#fff4e6; }
+.border-orange-lite        { border-color:#ff922b; }
+.border-orange-dark        { border-color:#d9480f; }
+
+.border-1  { border-width: 1px; }
+.borderx-1 { border-top-width: 1px; border-bottom-width: 1px; }
+.bordery-1 { border-left-width: 1px; border-right-width: 1px; }
+        
+.bordert-1 { border-top-width: 1px; }
+            
+.borderl-1 { border-left-width: 1px; }
+            
+.borderb-1 { border-bottom-width: 1px; }
+            
+.borderr-1 { border-right-width: 1px; }
+
+
+.border-3  { border-width: 3px; }
+.borderx-3 { border-top-width: 3px; border-bottom-width: 3px; }
+.bordery-3 { border-left-width: 3px; border-right-width: 3px; }
+        
+.bordert-3 { border-top-width: 3px; }
+            
+.borderl-3 { border-left-width: 3px; }
+            
+.borderb-3 { border-bottom-width: 3px; }
+            
+.borderr-3 { border-right-width: 3px; }
