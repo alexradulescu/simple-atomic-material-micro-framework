@@ -41,7 +41,6 @@ a { color:inherit; }
     a:hover, 
     a:active { text-decoration:none; }
 
-label { display:block; }
-a:focus, button:focus { outline:1px dashed #242424; }
-input:focus, textarea:focus, select:focus { outline:none; }
+a:focus { outline:1px dashed #242424; }
+input:focus, textarea:focus, select:focus, button:focus { outline:none; }
 

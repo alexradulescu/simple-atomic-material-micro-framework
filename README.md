@@ -22,7 +22,6 @@ To be used in relation with a self-written, maybe scoped, object oriented css, a
         - Transparent
         - Loading
     - File upload
-    - Toggle
     - Label -> DONE
     - Extra text -> DONE
     - Error message -> DONE
@@ -37,26 +36,21 @@ To be used in relation with a self-written, maybe scoped, object oriented css, a
 - Lists
 
 
-- Tag
-- Table
+- Tag -> DONE
+- Table -> DONE
 
 - Colors -> DONE
 - Bg-Colors -> DONE
 - Padding -> DONE
 - Margin -> DONE
 
-- Block
-- Flex
-    - h-center
-    - v-center
+- Block -> CANCELLED: Use span or P for block or inline. 
+- Flex -> BASIC
+    - h-center -> DONE
+    - v-center -> DONE
 
-- Bg-cover/hero
+- Bg-cover/hero -> DONE
 
-
-
-- Maybe?
-    - 16:9 - Video
-    - Other shapes 
 
 <!-- **Demo and examples:** [alex-radulescu.com/freeze-ui](http://alexradulescu.github.io/freeze-ui/)
 
