@@ -8,7 +8,7 @@ select:focus    { border-color:var(--oc-blue-6); outline:1px solid var(--oc-blue
 /* INPUTS
 __________________________________________________________________________*/
 .input-field    { font-size:1.4rem; font-weight:400; height:4rem; width:100%; padding:0 1.6rem; border:1px solid var(--oc-gray-7); display:block; border-radius:3px; }
-.textarea-field { font-size:1.4rem; font-weight:400; height:16rem; width:100%; max-width:100%; min-height:4rem; padding:1.2rem 1.6rem; border:1px solid var(--oc-gray-7); display:block; border-radius:3px; }
+.text-field { font-size:1.4rem; font-weight:400; height:16rem; width:100%; max-width:100%; min-height:4rem; padding:1.2rem 1.6rem; border:1px solid var(--oc-gray-7); display:block; border-radius:3px; }
 .select-field   { font-size:1.4rem; font-weight:400; height:4rem; padding:0 3.2rem 0 1.6rem; display:block; border-radius:0; border-radius:3px; background:transparent; border:1px solid var(--oc-gray-7); -webkit-appearance:none; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 24 24" width="30"><path fill="#495057" d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/><path d="M0-.75h24v24H0z" fill="none"/></svg>'); width:100%; background-repeat:no-repeat; background-position: right center; }
 .form-label     { font-size:1.6rem; line-height:1.4; margin-bottom:.4rem; }
 .addon-label    { font-size:1.6rem; line-height:1.4; margin:0; background-color:var(--oc-gray-7); padding:0 1.6rem; display:flex; align-items:center; }

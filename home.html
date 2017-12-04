@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SAM</title>
+	<meta property="og:title" content="SAM">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://alexradulescu.github.io/">
+
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Raleway:400,500,600" rel="stylesheet">
+    <link href="./variables.css" type="text/css" rel="stylesheet"/>
+    <link href="./reset.css" type="text/css" rel="stylesheet"/>
+    <link href="./grid.css" type="text/css" rel="stylesheet"/>
+    <link href="./typography.css" type="text/css" rel="stylesheet"/>
+    <link href="./forms.css" type="text/css" rel="stylesheet"/>
+    <link href="./others.css" type="text/css" rel="stylesheet"/>
+    <link href="./margins.css" type="text/css" rel="stylesheet"/>
+    <link href="./paddings.css" type="text/css" rel="stylesheet"/>
+    <link href="./border.css" type="text/css" rel="stylesheet"/>
+    <link href="./colors.css" type="text/css" rel="stylesheet"/>
+    <link href="./background-colors.css" type="text/css" rel="stylesheet"/>
+    <link href="./shadows.css" type="text/css" rel="stylesheet"/>
+    <script src='./generate-css.js'></script>
+</head>
+<body class="bg-gray-0">
+    <div class="container py-4 px-2">
+        <h1 class="h-3">Welcome back Alex</h1>
+        <h2 class="h-4">Expenses</h2>
+        <form>
+            <label class="form-group mb-3">
+                <span class="form-label">Amount</span>
+                <input type="number" placeholder="123.45" class="input-field" required min="0" autofocus/>
+            </label>    
+            <label class="form-group mb-3">
+                <span class="form-label">Category</span>
+                <select class="select-field" required>
+                    <option disabled selected value="">Choose one</option>
+                    <option>Utilities</option>
+                    <option>Food</option>
+                    <option>Fun</option>
+                    <option>Shopping</option>
+                    <option>Presents</option>
+                </select>
+            </label>
+            <label class="form-group mb-3">
+                <span class="form-label">Note</span>
+                <textarea class="text-field"></textarea>
+            </label> 
+            
+            <button type="submit" class="button">Save</button>
+        </form>
+        <ul>
+            <li class="px-3 py-1 borderb-1 border-gray-9">
+                <h2 class="title">Starbucks</h2>
+            </li>
+            <li class="px-3 py-1 borderb-1 border-gray-9">
+                <h2 class="title">Salad</h2>
+            </li>
+            <li class="px-3 py-1 borderb-1 border-gray-9">
+                <h2 class="title">Macaroons</h2>
+            </li>
+            <li class="px-3 py-1 borderb-1 border-gray-9">
+                <h2 class="title">Flowers</h2>
+            </li>
+            <li class="px-3 py-1 borderb-1 border-gray-9">
+                <h2 class="title">Dinner</h2>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
